@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oxanium:wght@200..800&family=Pixelify+Sans:wght@400..700&display=swap');
+
+*{
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+#color{
+    font-size: 50px;
+    font-weight: 900;   
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    mix-blend-mode: difference;
+    cursor: pointer;
+}
+
+.btn-bottom {
+    font-size: 18px;
+    margin-top: 450px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #ff006f;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+/*ปรับแต่งปุ่มเปลี่ยนสี*/
+
+
+.btn-bottom:hover {
+    background-color: #b30012;
+}
+/*เวลาชี้ไปที่ปุ่ม สีพื้นหลังของปุ่มจะเปลี่ยนสีไป*/
+
